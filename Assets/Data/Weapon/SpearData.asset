@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: SpearData
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: Spear
-  baseDamage: 5
-  knockbackForce: 1
+  icon: {fileID: 0}
+  baseDamage: 34
+  knockbackForce: 2
+  toolType: 0
   overrideController: {fileID: 22100000, guid: 44da4f66a78113647ae504328fef8561, type: 2}

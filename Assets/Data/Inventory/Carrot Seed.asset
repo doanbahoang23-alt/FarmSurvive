@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73948dd19fdc3954b9276d0e4563e304, type: 3}
+  m_Name: Carrot Seed
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Carrot Seed
+  icon: {fileID: -4641775223507166503, guid: e00161f22be44db47b79692d31ad2736, type: 3}
+  maxStack: 50
+  itemType: 3
+  toolType: 0
+  weaponData: {fileID: 0}
+  worldPrefab: {fileID: 2315873604026321968, guid: c54bf4abb34ed554993db612086b1394, type: 3}
+  foodRestoreAmount: 0
+  isSellable: 1
+  sellPrice: 9
+  buyPrice: 10

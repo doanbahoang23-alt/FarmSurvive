@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73948dd19fdc3954b9276d0e4563e304, type: 3}
+  m_Name: Carrot
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Carrot
+  icon: {fileID: 1388706608485843165, guid: e00161f22be44db47b79692d31ad2736, type: 3}
+  description: 
+  maxStack: 50
+  itemType: 6
+  weaponData: {fileID: 0}
+  isHoe: 0
+  plantPrefab: {fileID: 5394022914184049316, guid: e1b2951c39c29924d97854ce136eea00, type: 3}
+  isFood: 1
+  foodRestoreAmount: 20
+  isSellable: 1
+  sellPrice: 15
+  buyPrice: 30

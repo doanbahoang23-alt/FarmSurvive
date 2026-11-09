@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Bow
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: Bow
-  baseDamage: 10
-  knockbackForce: 1
+  icon: {fileID: 0}
+  baseDamage: 150
+  knockbackForce: 2
+  toolType: 0
   overrideController: {fileID: 22100000, guid: 45b3eab95876f3e468ac4f4329f1b76e, type: 2}

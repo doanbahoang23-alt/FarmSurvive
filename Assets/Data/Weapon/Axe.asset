@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Axe
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: Axe
-  baseDamage: 15
-  knockbackForce: 1
+  icon: {fileID: 0}
+  baseDamage: 10
+  knockbackForce: 0
+  toolType: 1
   overrideController: {fileID: 22100000, guid: db8d2e91bb2fe6743bfb05bd485dde52, type: 2}

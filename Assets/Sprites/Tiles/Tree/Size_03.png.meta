@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,7 +135,7 @@ TextureImporter:
         y: 96
         width: 48
         height: 96
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -153,11 +153,11 @@ TextureImporter:
       name: Size_03_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 96
         y: 96
         width: 48
         height: 96
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -175,11 +175,11 @@ TextureImporter:
       name: Size_03_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 144
         y: 96
-        width: 48
+        width: 49
         height: 96
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -197,11 +197,11 @@ TextureImporter:
       name: Size_03_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 96
-        width: 48
-        height: 96
-      alignment: 7
+        x: 193
+        y: 160
+        width: 14
+        height: 22
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -219,11 +219,11 @@ TextureImporter:
       name: Size_03_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 96
-      alignment: 7
+        x: 193
+        y: 128
+        width: 14
+        height: 22
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -241,11 +241,11 @@ TextureImporter:
       name: Size_03_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 48
-        height: 96
-      alignment: 7
+        x: 193
+        y: 96
+        width: 14
+        height: 22
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -263,19 +263,19 @@ TextureImporter:
       name: Size_03_6
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 0
         width: 48
         height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6f68c775118284c946560c7014f1e7
+      spriteID: bebf58e0d8e7f8b48975adf6b3bfb0ae
       internalID: -1512597598
       vertices: []
       indices: 
@@ -285,20 +285,86 @@ TextureImporter:
       name: Size_03_7
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
+        x: 48
+        y: 96
         width: 48
         height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e48377a2c5e7da4f96589fa1e5ea873
+      spriteID: aecd07e69d8586640aae2c4310680e92
       internalID: -609742027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Size_03_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b254c7f89f8364482a3ed692dbe5b9
+      internalID: 2117226888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Size_03_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a819298e25c58eb43a52f42641ea3347
+      internalID: 259255192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Size_03_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf04b2f101c98b44aba4f6a28ba974d
+      internalID: 1763675430
       vertices: []
       indices: 
       edges: []
@@ -317,16 +383,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":2.0},"gridSpriteSize":{"x":48.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Size_03_0: 5903473390127743887
       Size_03_1: 29793422648762467
+      Size_03_10: 1763675430
       Size_03_2: 3358523353687935341
       Size_03_3: -1072641817589923930
       Size_03_4: 5188767115401433409
       Size_03_5: 6910053292580695166
       Size_03_6: -1512597598
       Size_03_7: -609742027
+      Size_03_8: 2117226888
+      Size_03_9: 259255192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

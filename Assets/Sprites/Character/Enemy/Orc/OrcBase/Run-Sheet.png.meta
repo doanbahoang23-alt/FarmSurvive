@@ -131,12 +131,12 @@ TextureImporter:
       name: Run-Sheet_0
       rect:
         serializedVersion: 2
-        x: 20
+        x: 21
         y: 0
-        width: 26
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: Run-Sheet_1
       rect:
         serializedVersion: 2
-        x: 85
+        x: 86
         y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Run-Sheet_2
       rect:
         serializedVersion: 2
-        x: 149
+        x: 150
         y: 0
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Run-Sheet_3
       rect:
         serializedVersion: 2
-        x: 212
+        x: 213
         y: 0
-        width: 25
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 23
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Run-Sheet_4
       rect:
         serializedVersion: 2
-        x: 277
+        x: 278
         y: 0
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Run-Sheet_5
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 0
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 93e7900dd45902a478e3ec94ef50ea98
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +271,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Run-Sheet_0: 5807353947552565585
       Run-Sheet_1: -3540906705339577628

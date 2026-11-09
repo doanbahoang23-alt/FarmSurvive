@@ -12,15 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a1c0fe1521745a47a2d407d02de2df8, type: 3}
   m_Name: WaveEnemy
   m_EditorClassIdentifier: Assembly-CSharp::WaveData
-  waveName: BaseWave
-  enemyGroups:
-  - enemyPrefab: {fileID: 696402281938428791, guid: 058b53dd755495045aa96c6efc40f28c, type: 3}
-    count: 10
-    spawnDelay: 1
-  - enemyPrefab: {fileID: 696402281938428791, guid: 058b53dd755495045aa96c6efc40f28c, type: 3}
-    count: 10
-    spawnDelay: 1
-  - enemyPrefab: {fileID: 696402281938428791, guid: 058b53dd755495045aa96c6efc40f28c, type: 3}
-    count: 10
-    spawnDelay: 1
-  timeBetweenGroups: 2
+  enemyPrefab: {fileID: 696402281938428791, guid: 058b53dd755495045aa96c6efc40f28c, type: 3}
+  baseEnemyCount: 5
+  spawnDelay: 2
+  timeBetweenWaves: 30

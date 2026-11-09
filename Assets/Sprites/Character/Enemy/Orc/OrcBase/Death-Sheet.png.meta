@@ -131,12 +131,12 @@ TextureImporter:
       name: Death-Sheet_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 22
         y: 0
-        width: 21
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: Death-Sheet_1
       rect:
         serializedVersion: 2
-        x: 81
+        x: 82
         y: 0
-        width: 25
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Death-Sheet_2
       rect:
         serializedVersion: 2
-        x: 156
+        x: 157
         y: 0
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Death-Sheet_3
       rect:
         serializedVersion: 2
-        x: 214
+        x: 215
         y: 0
-        width: 33
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Death-Sheet_4
       rect:
         serializedVersion: 2
-        x: 277
+        x: 278
         y: 0
-        width: 35
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 33
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Death-Sheet_5
       rect:
         serializedVersion: 2
-        x: 341
+        x: 342
         y: 0
-        width: 36
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 34
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cdae537fdbb33ed469e9c3dce6de9ff8
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +271,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Death-Sheet_0: 2560191268572409061
       Death-Sheet_1: -1264829189228096833

@@ -137,12 +137,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 15
-        width: 30
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 16
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 15
-        width: 30
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 77
+        y: 16
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_2
       rect:
         serializedVersion: 2
-        x: 139
-        y: 15
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 16
+        width: 27
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 15
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 215
+        y: 16
+        width: 27
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 15
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 279
+        y: 16
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_5
       rect:
         serializedVersion: 2
-        x: 343
-        y: 15
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 344
+        y: 16
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_6
       rect:
         serializedVersion: 2
-        x: 407
-        y: 15
-        width: 19
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 408
+        y: 16
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: Slice_Side-No-Weapon-Sheet_7
       rect:
         serializedVersion: 2
-        x: 472
-        y: 15
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 473
+        y: 16
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e23d619d3b10bf847b8d77b7ee25a1a1
     internalID: 0
     vertices: []
     indices: 
@@ -321,7 +321,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.10000000149011612},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Slice_Side-No-Weapon-Sheet_0: 7517136908560897661
       Slice_Side-No-Weapon-Sheet_1: -6982845776588282205

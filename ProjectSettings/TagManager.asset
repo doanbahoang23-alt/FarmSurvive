@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Trap
   - Wall
+  - Rock
+  - Tree
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - wall
   - player
   - Enemy
-  - 
+  - Building
   - 
   - 
   - 
@@ -45,41 +47,32 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: floorLayer1
-    uniqueID: 2851506645
+  - name: Overwall
+    uniqueID: 4084957879
     locked: 0
-  - name: floorLayer2
-    uniqueID: 3100770927
+  - name: Floor
+    uniqueID: 785232123
     locked: 0
-  - name: FloorLayer3
-    uniqueID: 715447565
+  - name: Water
+    uniqueID: 2433444065
     locked: 0
-  - name: FloorLayer4
-    uniqueID: 896269691
+  - name: FloorOverlay
+    uniqueID: 2251931651
     locked: 0
-  - name: WallLayer1
-    uniqueID: 3359762033
+  - name: FloorDecal1
+    uniqueID: 3910429723
     locked: 0
-  - name: WallLayer2
-    uniqueID: 3735767577
+  - name: FloorDecal2
+    uniqueID: 2857831975
     locked: 0
-  - name: TreeLayer1
-    uniqueID: 3458985319
+  - name: Cliff
+    uniqueID: 3543381141
     locked: 0
-  - name: TreeLayer2
-    uniqueID: 911852425
+  - name: bridge
+    uniqueID: 3565417249
     locked: 0
-  - name: TreeLayer3
-    uniqueID: 862929279
-    locked: 0
-  - name: TreeLayer4
-    uniqueID: 1877782465
-    locked: 0
-  - name: Cover
-    uniqueID: 1902859497
-    locked: 0
-  - name: Cover2
-    uniqueID: 1697984123
+  - name: Onbridge
+    uniqueID: 3856690239
     locked: 0
   - name: Trap
     uniqueID: 2170748661
@@ -87,11 +80,14 @@ TagManager:
   - name: Spawn
     uniqueID: 1846573341
     locked: 0
-  - name: playerObject
-    uniqueID: 5009159
+  - name: FarmSoil
+    uniqueID: 1365585653
     locked: 0
-  - name: Enemy
-    uniqueID: 316423695
+  - name: Object
+    uniqueID: 1701089039
+    locked: 0
+  - name: fog
+    uniqueID: 1529609149
     locked: 0
   m_RenderingLayers:
   - Default

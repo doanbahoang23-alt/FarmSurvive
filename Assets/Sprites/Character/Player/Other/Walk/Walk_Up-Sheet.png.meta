@@ -131,12 +131,12 @@ TextureImporter:
       name: Walk_Up-Sheet_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 16
-        width: 17
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 17
+        width: 15
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: Walk_Up-Sheet_1
       rect:
         serializedVersion: 2
-        x: 87
-        y: 16
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 88
+        y: 17
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Walk_Up-Sheet_2
       rect:
         serializedVersion: 2
-        x: 152
-        y: 15
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 153
+        y: 16
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Walk_Up-Sheet_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 16
-        width: 17
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 217
+        y: 17
+        width: 15
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Walk_Up-Sheet_4
       rect:
         serializedVersion: 2
-        x: 280
-        y: 16
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 281
+        y: 17
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Walk_Up-Sheet_5
       rect:
         serializedVersion: 2
-        x: 343
-        y: 15
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 344
+        y: 16
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6ba4182d8fbbcac4ba6113e0fdb1de5f
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +271,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.10000000149011612},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Walk_Up-Sheet_0: 3185446667623891690
       Walk_Up-Sheet_1: 820859723541564231

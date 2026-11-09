@@ -137,12 +137,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 15
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 16
+        width: 16
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 15
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 16
+        width: 16
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 15
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 148
+        y: 16
+        width: 16
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_3
       rect:
         serializedVersion: 2
-        x: 217
-        y: 13
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 218
+        y: 14
+        width: 15
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_4
       rect:
         serializedVersion: 2
-        x: 281
-        y: 15
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 282
+        y: 16
+        width: 15
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_5
       rect:
         serializedVersion: 2
-        x: 343
-        y: 15
-        width: 19
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 344
+        y: 16
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_6
       rect:
         serializedVersion: 2
-        x: 405
-        y: 15
-        width: 19
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 406
+        y: 16
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: Pierce_Down-No-Weapon_7
       rect:
         serializedVersion: 2
-        x: 469
-        y: 15
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 470
+        y: 16
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aaa265c4266185c49983579d2fc4439e
     internalID: 0
     vertices: []
     indices: 
@@ -321,7 +321,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.10000000149011612},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Pierce_Down-No-Weapon_0: 197758425229421682
       Pierce_Down-No-Weapon_1: -967621542559008043
