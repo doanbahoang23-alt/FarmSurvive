@@ -14,6 +14,15 @@ public class HoeWeapon : MonoBehaviour
 
     public void TillSoil()
     {
+        // Ưu tiên chuyển giao xử lý về PlayerFarming trung tâm
+        PlayerFarming farming = transform.root.GetComponent<PlayerFarming>();
+        if (farming == null) farming = Object.FindFirstObjectByType<PlayerFarming>();
+        if (farming != null)
+        {
+            farming.TillSoil();
+            return;
+        }
+
         Tilemap farmTilemap = FarmableArea.ActiveFarmTilemap;
         if (farmTilemap == null)
         {
@@ -34,19 +43,12 @@ public class HoeWeapon : MonoBehaviour
             }
         }
 
-        if (dirtTile == null)
+        if (dirtTile == null && farming != null)
         {
-            PlayerFarming farming = transform.root.GetComponent<PlayerFarming>();
-            if (farming == null) farming = Object.FindFirstObjectByType<PlayerFarming>();
-            if (farming != null) dirtTile = farming.DirtTile;
+            dirtTile = farming.DirtTile;
         }
 
-        if (farmTilemap == null)
-        {
-            return;
-        }
-
-        if (dirtTile == null)
+        if (farmTilemap == null || dirtTile == null)
         {
             return;
         }
@@ -67,10 +69,7 @@ public class HoeWeapon : MonoBehaviour
             lookDir = lookDir.x >= 0 ? Vector2.right : Vector2.left;
         }
 
-        Transform feetTransform = null;
-        PlayerFarming playerFarming = transform.root.GetComponent<PlayerFarming>();
-        if (playerFarming != null) feetTransform = playerFarming.FeetPos;
-
+        Transform feetTransform = farming != null ? farming.FeetPos : null;
         Vector3 checkPosition = feetTransform != null ? feetTransform.position : transform.root.position;
         Vector3 targetPos = checkPosition + (Vector3)(lookDir * 0.8f);
 
@@ -80,24 +79,30 @@ public class HoeWeapon : MonoBehaviour
         // Đã là đất cuốc rồi thì bỏ qua
         if (farmTilemap.GetTile(cellPosition) == dirtTile) return;
 
-        // Kiểm tra vật cản
-        if (IsCellBlockedForTilling(cellCenter))
+        // Kiểm tra vật cản và vị trí cấm (Cầu / Nước)
+        if (IsCellBlockedForTilling(cellCenter, targetPos))
         {
             return;
         }
 
-        // 4. Biến thành đất cuốc
+        // Biến thành đất cuốc
         farmTilemap.SetTile(cellPosition, dirtTile);
 
-        // 5. Phát âm thanh cuốc đất
+        // Âm thanh cuốc đất
         if (AudioManager.Instance != null && AudioManager.Instance.tillSoilClip != null)
         {
             AudioManager.Instance.PlaySFX(AudioManager.Instance.tillSoilClip);
         }
     }
 
-    private bool IsCellBlockedForTilling(Vector3 centerPos)
+    private bool IsCellBlockedForTilling(Vector3 centerPos, Vector3 targetPos)
     {
+        // Chặn cuốc trên cầu hoặc mặt nước
+        if (!FarmableArea.CanTillAt(centerPos, targetPos))
+        {
+            return true;
+        }
+
         Physics2D.SyncTransforms();
         Collider2D[] colliders = Physics2D.OverlapCircleAll(centerPos, 0.4f);
         if (colliders == null || colliders.Length == 0) return false;
@@ -134,6 +139,11 @@ public class HoeWeapon : MonoBehaviour
                 return true;
             }
 
+            if (col.CompareTag("Bridge") || col.gameObject.name.IndexOf("bridge", System.StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                return true;
+            }
+
             if (!col.isTrigger && (col.CompareTag("Wall") ||
                 col.gameObject.layer == LayerMask.NameToLayer("wall") ||
                 col.gameObject.layer == LayerMask.NameToLayer("Building") ||
@@ -146,4 +156,3 @@ public class HoeWeapon : MonoBehaviour
         return false;
     }
 }
-

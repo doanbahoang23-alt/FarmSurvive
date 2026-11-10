@@ -468,7 +468,14 @@ public class SaveManager : MonoBehaviour
 
         foreach (var t in tilledTiles)
         {
-            farmTilemap.SetTile(new Vector3Int(t.x, t.y, t.z), dirtTile);
+            Vector3Int cellPos = new Vector3Int(t.x, t.y, t.z);
+            Vector3 worldCenter = farmTilemap.GetCellCenterWorld(cellPos);
+            if (!FarmableArea.CanTillAt(worldCenter, worldCenter))
+            {
+                continue; // Bỏ qua không nạp lại ô đất cuốc bị lỗi trên cầu hoặc dưới nước
+            }
+
+            farmTilemap.SetTile(cellPos, dirtTile);
         }
     }
 
