@@ -331,14 +331,11 @@ public class PathfindingGrid2D : MonoBehaviour
     #region Debug Gizmos
     private void OnDrawGizmos()
     {
-        // Luôn vẽ khung viền tổng thể của lưới (Rất nhẹ, chỉ 1 wireframe cube)
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(gridCenter, new Vector3(gridWorldSize.x, gridWorldSize.y, 0f));
 
         if (!showGizmos || grid == null) return;
 
-        // Tối ưu hóa triệt để chống đơ/treo Unity:
-        // Thay vì duyệt 200,000 ô toàn bản đồ, chỉ vẽ các ô trong phạm vi camera Scene hoặc quanh Player (tối đa gizmoDrawRadius)
         Vector3 focusPoint = gridCenter;
 #if UNITY_EDITOR
         if (UnityEditor.SceneView.currentDrawingSceneView != null && UnityEditor.SceneView.currentDrawingSceneView.camera != null)

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class BurnReceiver : MonoBehaviour, IBurnable
 {
     private SpriteRenderer[] spriteRenderers;
